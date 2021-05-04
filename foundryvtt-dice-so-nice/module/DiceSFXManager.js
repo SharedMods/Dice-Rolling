@@ -28,7 +28,9 @@ export const DiceSFXManager = {
         "PlayAnimationParticleVortex": PlayAnimationParticleVortex,
         "PlaySoundEpicWin": PlaySoundEpicWin,
         "PlaySoundEpicFail": PlaySoundEpicFail,
-        "PlaySoundPeko": PlaySoundPeko
+        "PlaySoundPeko": PlaySoundPeko,
+        "PlaySoundGoodMorning": PlaySoundGoodMorning,
+        "PlaySoundPolka": PlaySoundPolka
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

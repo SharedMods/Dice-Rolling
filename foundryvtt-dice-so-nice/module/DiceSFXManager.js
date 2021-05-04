@@ -32,7 +32,9 @@ export const DiceSFXManager = {
         "PlaySoundEpicFail": PlaySoundEpicFail,
         "PlaySoundPeko": PlaySoundPeko,
         "PlaySoundGoodMorning": PlaySoundGoodMorning,
-        "PlaySoundPolka": PlaySoundPolka
+        "PlaySoundPolka": PlaySoundPolka,
+        "PlaySoundHaachama": PlaySoundHaachama,
+        "PlaySoundNonsense": PlaySoundNonsense
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

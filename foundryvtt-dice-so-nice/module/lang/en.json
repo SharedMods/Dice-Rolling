@@ -74,6 +74,7 @@
     "DICESONICE.onResult" : "On result",
     "DICESONICE.specialEffect" : "Special effect",
 
+    "DICESONICE.PlaySoundPeko": "Sound: PEKO",
     "DICESONICE.PlaySoundEpicFail" : "Sound: Epic Fail",
     "DICESONICE.PlaySoundEpicWin" : "Sound: Epic Win",
     "DICESONICE.PlayAnimationDark" : "Unique: Darkness",

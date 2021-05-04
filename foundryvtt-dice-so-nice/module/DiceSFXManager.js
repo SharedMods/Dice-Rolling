@@ -1,5 +1,8 @@
 import { PlaySoundEpicFail } from './sfx/PlaySoundEpicFail.js';
 import { PlaySoundEpicWin } from './sfx/PlaySoundEpicWin.js';
+import { PlaySoundPeko } from './sfx/PlaySoundPeko.js';
+import { PlaySoundGoodMorning } from './sfx/PlaySoundGoodMorning.js';
+import { PlaySoundPolka } from './sfx/PlaySoundPolka.js';
 import { PlayConfettiStrength1 } from './sfx/PlayConfettiStrength1.js';
 import { PlayConfettiStrength2 } from './sfx/PlayConfettiStrength2.js';
 import { PlayConfettiStrength3 } from './sfx/PlayConfettiStrength3.js';
@@ -24,7 +27,10 @@ export const DiceSFXManager = {
         "PlayAnimationParticleSparkles": PlayAnimationParticleSparkles,
         "PlayAnimationParticleVortex": PlayAnimationParticleVortex,
         "PlaySoundEpicWin": PlaySoundEpicWin,
-        "PlaySoundEpicFail": PlaySoundEpicFail
+        "PlaySoundEpicFail": PlaySoundEpicFail,
+        "PlaySoundPeko": PlaySoundPeko,
+        "PlaySoundGoodMorning": PlaySoundGoodMorning,
+        "PlaySoundPolka": PlaySoundPolka
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

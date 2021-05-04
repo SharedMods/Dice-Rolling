@@ -3,6 +3,8 @@ import { PlaySoundEpicWin } from './sfx/PlaySoundEpicWin.js';
 import { PlaySoundPeko } from './sfx/PlaySoundPeko.js';
 import { PlaySoundGoodMorning } from './sfx/PlaySoundGoodMorning.js';
 import { PlaySoundPolka } from './sfx/PlaySoundPolka.js';
+import { PlaySoundHaachama } from './sfx/PlaySoundHaachama.js';
+import { PlaySoundNonsense } from './sfx/PlaySoundNonsense.js';
 import { PlayConfettiStrength1 } from './sfx/PlayConfettiStrength1.js';
 import { PlayConfettiStrength2 } from './sfx/PlayConfettiStrength2.js';
 import { PlayConfettiStrength3 } from './sfx/PlayConfettiStrength3.js';
@@ -30,7 +32,9 @@ export const DiceSFXManager = {
         "PlaySoundEpicFail": PlaySoundEpicFail,
         "PlaySoundPeko": PlaySoundPeko,
         "PlaySoundGoodMorning": PlaySoundGoodMorning,
-        "PlaySoundPolka": PlaySoundPolka
+        "PlaySoundPolka": PlaySoundPolka,
+        "PlaySoundHaachama": PlaySoundHaachama,
+        "PlaySoundNonsense": PlaySoundNonsense
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

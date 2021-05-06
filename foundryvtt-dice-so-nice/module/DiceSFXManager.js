@@ -8,6 +8,7 @@ import { PlaySoundNonsense } from './sfx/PlaySoundNonsense.js';
 import { PlaySoundRice } from './sfx/PlaySoundRice.js';
 import { PlaySoundYes } from './sfx/PlaySoundYes.js';
 import { PlaySoundNo } from './sfx/PlaySoundNo.js' ;
+import { PlaySoundPain } from './sfx/PlaySoundPain.js' ;
 import { PlayConfettiStrength1 } from './sfx/PlayConfettiStrength1.js';
 import { PlayConfettiStrength2 } from './sfx/PlayConfettiStrength2.js';
 import { PlayConfettiStrength3 } from './sfx/PlayConfettiStrength3.js';
@@ -39,7 +40,9 @@ export const DiceSFXManager = {
         "PlaySoundHaachama": PlaySoundHaachama,
         "PlaySoundNonsense": PlaySoundNonsense,
         "PlaySoundRice": PlaySoundRice,
-        "PlaySoundYes": PlaySoundYes
+        "PlaySoundYes": PlaySoundYes,
+        "PlaySoundNo": PlaySoundNo,
+        "PlaySoundPain": PlaySoundPain
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

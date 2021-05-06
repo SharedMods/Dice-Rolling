@@ -3,7 +3,7 @@ import { DiceSFX } from '../DiceSFX.js';
 export class PlaySoundPain extends DiceSFX {
     static id = "PlaySoundPain";
     static name = "DICESONICE.PlaySoundPain";
-    static path = 'modules/dice-so-nice/sfx/sounds/PAIN_PEKO.mp3';
+    static path = 'modules/dice-so-nice/sfx/sounds/PAIN_PEKO.wav';
     /**@override init */
     static async init(){
         game.audio.pending.push(function(){

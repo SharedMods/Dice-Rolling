@@ -5,6 +5,9 @@ import { PlaySoundGoodMorning } from './sfx/PlaySoundGoodMorning.js';
 import { PlaySoundPolka } from './sfx/PlaySoundPolka.js';
 import { PlaySoundHaachama } from './sfx/PlaySoundHaachama.js';
 import { PlaySoundNonsense } from './sfx/PlaySoundNonsense.js';
+import { PlaySoundRice } from './sfx/PlaySoundRice.js';
+import { PlaySoundYes } from './sfx/PlaySoundYes.js';
+import { PlaySoundNo } from './sfx/PlaySoundNo.js' ;
 import { PlayConfettiStrength1 } from './sfx/PlayConfettiStrength1.js';
 import { PlayConfettiStrength2 } from './sfx/PlayConfettiStrength2.js';
 import { PlayConfettiStrength3 } from './sfx/PlayConfettiStrength3.js';
@@ -34,7 +37,9 @@ export const DiceSFXManager = {
         "PlaySoundGoodMorning": PlaySoundGoodMorning,
         "PlaySoundPolka": PlaySoundPolka,
         "PlaySoundHaachama": PlaySoundHaachama,
-        "PlaySoundNonsense": PlaySoundNonsense
+        "PlaySoundNonsense": PlaySoundNonsense,
+        "PlaySoundRice": PlaySoundRice,
+        "PlaySoundYes": PlaySoundYes
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

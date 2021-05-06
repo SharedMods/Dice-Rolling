@@ -39,7 +39,8 @@ export const DiceSFXManager = {
         "PlaySoundHaachama": PlaySoundHaachama,
         "PlaySoundNonsense": PlaySoundNonsense,
         "PlaySoundRice": PlaySoundRice,
-        "PlaySoundYes": PlaySoundYes
+        "PlaySoundYes": PlaySoundYes,
+        "PlaySoundNo": PlaySoundNo
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

@@ -85,6 +85,7 @@
     "DICESONICE.PlaySoundYes" : "Sound: Yes",
     "DICESONICE.PlaySoundNo" : "Sound: No",
     "DICESONICE.PlaySoundPain" : "Sound: Pain",
+    "DICESONICE.PlaySoundPan" : "Sound: Pan",
     "DICESONICE.PlayAnimationDark" : "Unique: Darkness",
     "DICESONICE.PlayAnimationBright" : "Unique: White Glow",
     "DICESONICE.PlayAnimationImpact" : "Animation: Glass Impact",

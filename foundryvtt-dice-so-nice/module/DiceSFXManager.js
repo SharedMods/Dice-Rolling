@@ -67,7 +67,7 @@ export const DiceSFXManager = {
                     //fix corrupted save from bug #139
                     if(!Array.isArray(line.specialEffect)){
                         sfxUniqueList.push(line.specialEffect);
-                    }
+                    } 
                 });
             }
         });

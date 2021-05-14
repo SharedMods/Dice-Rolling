@@ -11,6 +11,7 @@ import { PlaySoundNo } from './sfx/PlaySoundNo.js' ;
 import { PlaySoundPain } from './sfx/PlaySoundPain.js' ;
 import { PlaySoundPan } from './sfx/PlaySoundPan.js' ;
 import { PlaySoundPoggers } from './sfx/PlaySoundPoggers.js' ;
+import { PlaySoundYo } from './sfx/PlaySoundYo.js' ;
 import { PlayConfettiStrength1 } from './sfx/PlayConfettiStrength1.js';
 import { PlayConfettiStrength2 } from './sfx/PlayConfettiStrength2.js';
 import { PlayConfettiStrength3 } from './sfx/PlayConfettiStrength3.js';
@@ -46,7 +47,8 @@ export const DiceSFXManager = {
         "PlaySoundNo": PlaySoundNo,
         "PlaySoundPain": PlaySoundPain,
         "PlaySoundPan": PlaySoundPan,
-        "PlaySoundPoggers" :PlaySoundPoggers
+        "PlaySoundPoggers": PlaySoundPoggers,
+        "PlaySoundYo": PlaySoundYo
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

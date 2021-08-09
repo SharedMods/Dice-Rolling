@@ -13,6 +13,10 @@ import { PlaySoundPan } from './sfx/PlaySoundPan.js' ;
 import { PlaySoundPoggers } from './sfx/PlaySoundPoggers.js' ;
 import { PlaySoundYo } from './sfx/PlaySoundYo.js' ;
 import { PlaySoundTsukuyomi } from './sfx/PlaySoundTsukuyomi.js' ;
+import { PlaySoundFairyTail } from './sfx/PlaySoundFairyTail.js' ;
+import { PlaySoundAllMight } from './sfx/PlaySoundAllMight.js' ;
+import { PlaySoundUnbelievable } from './sfx/PlaySoundUnbelievable.js' ;
+
 import { PlayConfettiStrength1 } from './sfx/PlayConfettiStrength1.js';
 import { PlayConfettiStrength2 } from './sfx/PlayConfettiStrength2.js';
 import { PlayConfettiStrength3 } from './sfx/PlayConfettiStrength3.js';
@@ -50,7 +54,10 @@ export const DiceSFXManager = {
         "PlaySoundPan": PlaySoundPan,
         "PlaySoundPoggers": PlaySoundPoggers,
         "PlaySoundYo": PlaySoundYo,
-        "PlaySoundTsukuyomi": PlaySoundTsukuyomi
+        "PlaySoundTsukuyomi": PlaySoundTsukuyomi,
+        "PlaySoundFairyTail": PlaySoundFairyTail,
+        "PlaySoundAllMight": PlaySoundAllMight,
+        "PlaySoundUnbelievable": PlaySoundUnbelievable
     },
     SFX_MODE_LIST : null,
     SFX_CLASS : {},

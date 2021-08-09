@@ -89,6 +89,10 @@
     "DICESONICE.PlaySoundPoggers" : "Sound: Pog",
     "DICESONICE.PlaySoundYo" : "Sound: YO",
     "DICESONICE.PlaySoundTsukuyomi" : "Sound: Blood Maledict",
+    "DICESONICE.PlaySoundFairyTail" : "Sound: Fairy Tail",
+    "DICESONICE.PlaySoundAllMight" : "Sound: All Might",
+    "DICESONICE.PlaySoundUnbelievable" : "Sound: Unbelievable",
+
     "DICESONICE.PlayAnimationDark" : "Unique: Darkness",
     "DICESONICE.PlayAnimationBright" : "Unique: White Glow",
     "DICESONICE.PlayAnimationImpact" : "Animation: Glass Impact",

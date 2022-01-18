@@ -24,3 +24,13 @@ Pan
 Poggers
 
 Tsukuyomi
+
+Fairy Tail
+
+Unbelievable
+
+All Might
+
+To add a new sfx:
+ - Create new PlaySound.js file
+ - Add sfx to DiceSFXManager.js

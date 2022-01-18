@@ -1,3 +1,6 @@
+import * as THREE from './libs/three.module.js';
+import { GLTFLoader } from './libs/three-modules/GLTFLoader.js';
+
 import { PlaySoundEpicFail } from './sfx/PlaySoundEpicFail.js';
 import { PlaySoundEpicWin } from './sfx/PlaySoundEpicWin.js';
 import { PlaySoundPeko } from './sfx/PlaySoundPeko.js';
@@ -27,6 +30,7 @@ import { PlayAnimationBright } from './sfx/PlayAnimationBright.js';
 import { PlayAnimationDark } from './sfx/PlayAnimationDark.js';
 import { PlayAnimationThormund } from './sfx/PlayAnimationThormund.js';
 import { PlayAnimationImpact } from './sfx/PlayAnimationImpact.js';
+import { PlayMacro } from './sfx/PlayMacro.js';
 
 export const DiceSFXManager = {
     SFX_MODE_CLASS : {

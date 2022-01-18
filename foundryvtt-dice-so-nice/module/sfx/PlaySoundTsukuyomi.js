@@ -2,15 +2,12 @@ import { DiceSFX } from '../DiceSFX.js';
 
 export class PlaySoundTsukuyomi extends DiceSFX {
     static id = "PlaySoundTsukuyomi";
-    static name = "DICESONICE.PlaySoundTsukuyomi";
+    static specialEffectName = "DICESONICE.PlaySoundTsukuyomi";
     static path = 'modules/dice-so-nice/sfx/sounds/Tsukuyomi.wav';
     /**@override init */
     static async init(){
         game.audio.pending.push(function(){
-            AudioHelper.play({
-                src: PlaySoundTsukuyomi.path,
-                autoplay: false
-            }, false);
+            AudioHelper.preloadSound(PlaySoundTsukuyomi.path);
         }.bind(this));
         return true;
     }
